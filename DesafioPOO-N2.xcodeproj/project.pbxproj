@@ -16,6 +16,8 @@
 		89574097264EF19D00604B95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89574095264EF19D00604B95 /* LaunchScreen.storyboard */; };
 		895740A2264EF19D00604B95 /* DesafioPOO_N2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895740A1264EF19D00604B95 /* DesafioPOO_N2Tests.swift */; };
 		895740AD264EF19D00604B95 /* DesafioPOO_N2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895740AC264EF19D00604B95 /* DesafioPOO_N2UITests.swift */; };
+		895740BE264EF2E000604B95 /* Paciente.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895740BD264EF2E000604B95 /* Paciente.swift */; };
+		895740CD264F1F3100604B95 /* PacienteFeminino.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895740CC264F1F3100604B95 /* PacienteFeminino.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		895740A8264EF19D00604B95 /* DesafioPOO-N2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DesafioPOO-N2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		895740AC264EF19D00604B95 /* DesafioPOO_N2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafioPOO_N2UITests.swift; sourceTree = "<group>"; };
 		895740AE264EF19D00604B95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		895740BD264EF2E000604B95 /* Paciente.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paciente.swift; sourceTree = "<group>"; };
+		895740C2264EFEDD00604B95 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		895740CC264F1F3100604B95 /* PacienteFeminino.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacienteFeminino.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +108,15 @@
 			children = (
 				89574087264EF19900604B95 /* AppDelegate.swift */,
 				89574089264EF19900604B95 /* SceneDelegate.swift */,
+				895740BD264EF2E000604B95 /* Paciente.swift */,
+				895740CC264F1F3100604B95 /* PacienteFeminino.swift */,
 				8957408B264EF19900604B95 /* ViewController.swift */,
 				8957408D264EF19900604B95 /* Main.storyboard */,
 				89574093264EF19D00604B95 /* Assets.xcassets */,
 				89574095264EF19D00604B95 /* LaunchScreen.storyboard */,
 				89574098264EF19D00604B95 /* Info.plist */,
 				89574090264EF19900604B95 /* DesafioPOO_N2.xcdatamodeld */,
+				895740C2264EFEDD00604B95 /* MyPlayground.playground */,
 			);
 			path = "DesafioPOO-N2";
 			sourceTree = "<group>";
@@ -261,6 +269,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				895740BE264EF2E000604B95 /* Paciente.swift in Sources */,
+				895740CD264F1F3100604B95 /* PacienteFeminino.swift in Sources */,
 				8957408C264EF19900604B95 /* ViewController.swift in Sources */,
 				89574088264EF19900604B95 /* AppDelegate.swift in Sources */,
 				89574092264EF19900604B95 /* DesafioPOO_N2.xcdatamodeld in Sources */,
