@@ -18,6 +18,8 @@
 		895740AD264EF19D00604B95 /* DesafioPOO_N2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895740AC264EF19D00604B95 /* DesafioPOO_N2UITests.swift */; };
 		895740BE264EF2E000604B95 /* Paciente.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895740BD264EF2E000604B95 /* Paciente.swift */; };
 		895740CD264F1F3100604B95 /* PacienteFeminino.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895740CC264F1F3100604B95 /* PacienteFeminino.swift */; };
+		89BDFBD32652A57B00436ED1 /* CadastroEmMassa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BDFBD22652A57B00436ED1 /* CadastroEmMassa.swift */; };
+		89BDFBDB2652F92100436ED1 /* DadosEntrada.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BDFBDA2652F92100436ED1 /* DadosEntrada.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		895740BD264EF2E000604B95 /* Paciente.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paciente.swift; sourceTree = "<group>"; };
 		895740C2264EFEDD00604B95 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		895740CC264F1F3100604B95 /* PacienteFeminino.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacienteFeminino.swift; sourceTree = "<group>"; };
+		89BDFBD22652A57B00436ED1 /* CadastroEmMassa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroEmMassa.swift; sourceTree = "<group>"; };
+		89BDFBDA2652F92100436ED1 /* DadosEntrada.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadosEntrada.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +114,9 @@
 				89574089264EF19900604B95 /* SceneDelegate.swift */,
 				895740BD264EF2E000604B95 /* Paciente.swift */,
 				895740CC264F1F3100604B95 /* PacienteFeminino.swift */,
+				89BDFBD22652A57B00436ED1 /* CadastroEmMassa.swift */,
 				8957408B264EF19900604B95 /* ViewController.swift */,
+				89BDFBDA2652F92100436ED1 /* DadosEntrada.swift */,
 				8957408D264EF19900604B95 /* Main.storyboard */,
 				89574093264EF19D00604B95 /* Assets.xcassets */,
 				89574095264EF19D00604B95 /* LaunchScreen.storyboard */,
@@ -275,6 +281,8 @@
 				89574088264EF19900604B95 /* AppDelegate.swift in Sources */,
 				89574092264EF19900604B95 /* DesafioPOO_N2.xcdatamodeld in Sources */,
 				8957408A264EF19900604B95 /* SceneDelegate.swift in Sources */,
+				89BDFBD32652A57B00436ED1 /* CadastroEmMassa.swift in Sources */,
+				89BDFBDB2652F92100436ED1 /* DadosEntrada.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -35,22 +35,22 @@ class Paciente {
                 adicionalDeDias = 30
             }
             if idade > 59 && idade < 71 {
-                return "Vacinar-se em \(adicionalDeDias + 30) dias"
+                return "Vacinar-se em \(adicionalDeDias + 30) dias."
             }
             else if idade > 49 && idade < 60 {
-                return "Vacinar-se em \(adicionalDeDias + 60) dias"
+                return "Vacinar-se em \(adicionalDeDias + 60) dias."
             }
             else if idade > 29 && idade < 50 {
-                return "Vacinar-se em \(adicionalDeDias + 90) dias"
+                return "Vacinar-se em \(adicionalDeDias + 90) dias."
             }
             else if idade > 19 && idade < 30 {
-                return "Vacinar-se em \(adicionalDeDias + 120) dias"
+                return "Vacinar-se em \(adicionalDeDias + 120) dias."
             }
-            else if idade > 0 && idade < 20 {
-                return "Vacinar-se em \(adicionalDeDias + 150) dias"
+            else if idade > -1 && idade < 20 {
+                return "Vacinar-se em \(adicionalDeDias + 150) dias."
             }
         }
-        return "Ops"
+        return "Problema com idade."
     }
     func getIdade() -> Int {
         let nascimento = formatDate(self.dataNascimento)
